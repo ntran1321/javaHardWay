@@ -6,5 +6,16 @@ public class ForgetfulMachine {
 
 		System.out.println( "What city is the capital of France?" );
 		keyboard.next();
+
+		System.out.println( "What is 6 multiplied by 7?" );
+		keyboard.nextInt();
+			//blows up when you type in number with decimals
+
+		System.out.println( "Enter a number between 0.0 and 1.0." );
+		keyboard.nextDouble();
+			//blows up when you type in string of letters
+		
+		System.out.println( "Is there anything else you would like to say?" );
+		keyboard.next();
 	}
 }
