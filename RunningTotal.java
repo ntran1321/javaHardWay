@@ -9,12 +9,16 @@ public class RunningTotal {
 		System.out.print("Type in a bunch of values and I'll add them. ");
 		System.out.println("I'll stop when you type a zero.");
 		
-		while (current != 0) {
+		do {
 			System.out.print("Value: ");
 			current = keyboard.nextInt();
 			total += current ;
-			System.out.println("The total so far is: " + total);
-		} 
+			if ( current > 0 )
+				System.out.println("The total so far is: " + total);
+			
+		} while (current != 0);
+
+
 
 		System.out.println("the final total is: " + total);
 	}
