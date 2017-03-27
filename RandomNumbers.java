@@ -1,4 +1,4 @@
-public class RandomNumbers {
+public class RandomNumbers { 
 	public static void main( String [] args ) {
 		int a, b, c, d, x, y, z;
 		double r, rps;

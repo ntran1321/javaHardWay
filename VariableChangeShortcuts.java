@@ -46,8 +46,8 @@ public class VariableChangeShortcuts {
 
 		i = 5;
 		System.out.println( "i: " + i);
-		i ++; //use only ++ to change i to 10. Is this what that means???
-		i ++;
+		i ++; //use only ++ to change i to 10. 
+		i ++; //dont know how to do in just one line
 		i ++;
 		i ++;
 		i ++;

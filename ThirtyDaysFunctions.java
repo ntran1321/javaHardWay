@@ -40,9 +40,10 @@ public class ThirtyDaysFunctions {
 		return monthName;
 	}
 
-	//Returns number of days in given month
+	/**Returns number of days in given month
 	//@param month the month number
 	//@return number of days or 31 if out of range
+	*/
 
 	public static int monthDays( int month) {
 		int days;

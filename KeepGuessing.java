@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //exercise 27
 
 public class KeepGuessing {
 	public static void main( String[] args ) {

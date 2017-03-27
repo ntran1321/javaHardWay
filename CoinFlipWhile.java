@@ -34,3 +34,6 @@ public class CoinFlipWhile {
 		
 	}
 }
+
+//to convert from dowhile to while loop:
+//move while loop to top and define value of again

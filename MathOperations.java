@@ -42,7 +42,7 @@ public class MathOperations {
 		l = p*k;
 		//Why doesn't Java have an exponent operator?!?!
 
-		System.out.println("The amount of money I will have when I retire is: $" + a );
+		System.out.println("The amount of money I will have when I retire is: $" + l );
 
 		//giving up for now, I'm making too many errors.
 	}

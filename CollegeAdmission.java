@@ -21,7 +21,7 @@ public class CollegeAdmission {
 		else if ( math >= 500 )
 			out.print( "UNCERTAIN " );
 		else if ( math >= 390 )
-			out.print( "UNLIKELY " );
+			out.print( "UNLIKELY " );	
 		else // below 390
 			out.print( "DENIED " );
 			out.println();

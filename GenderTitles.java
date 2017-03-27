@@ -3,7 +3,7 @@ import java.util.Scanner; //import Scanner utility
 public class GenderTitles {
 	public static void main( String [] args ) {
 		Scanner keyboard = new Scanner(System.in);
-		String title = "error"; //define variable
+		String title = "error"; //define variable, why won't it print out error?
 
 		System.out.print( "First name: " );
 		String first = keyboard.next();
